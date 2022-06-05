@@ -36,13 +36,13 @@ const questions = [
     name: "install",
     message: "What command should be run to install dependencies?",
     default:
-      "To install dependencies run npm install through the command line.",
+      "npm install",
   },
   {
     type: "input",
     name: "tests",
     message: "What command should be run to run tests?",
-    default: "To test the file run npm test through the command line.",
+    default: "npm run test",
   },
   {
     type: "input",
@@ -68,21 +68,17 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, err => {
-    if (err) {
-      return console.log(err);
-    }
-    console.log("Success! Your README has been generated")
-  });
+fs.writeFile(`${fileName}`, data, (err) =>
+  err ? console.error(err) : console.log("Success!")
+);
 };
 
 // TODO: Create a function to initialize app
 function init() {
-  return inquirer.prompt(questions)
-  .then(userInput => {
-    return userInput
-    }); 
+    inquirer.prompt(questions).then((data) => {
+      writeToFile("README.md", generateMarkdown(data));
+    });
 };
 
 // Function call to initialize app
-init();
+init()

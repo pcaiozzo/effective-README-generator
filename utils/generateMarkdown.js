@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 ## Description
- ${data.description}
+${data.description}
 
 
 ## Table of Contents
@@ -55,7 +55,7 @@ function generateMarkdown(data) {
 - [Usage](#usage)
 - [License](#license)
 -[Badges](#badges)
--[Contribute](#contribute)
+-[Contributing](#contributing)
 -[Tests](#tests)
 -[Questions](#questions)
 
@@ -83,11 +83,16 @@ ${data.contribute}
 ${data.tests}
 
 ## Questions
-If you have any questions, find me on [GitHub!](https://github.com/${data.github})
-Or email me at:  ${data.email}
+If you have any questions, contact me!
+GitHub: [GitHub!](https://github.com/${data.github})
+Email:  ${data.email}
 
 
 `;
+
+fs.writeFile("./README.md", output, (err) => {
+  if (err) throw err;
+});
 }
 
 module.exports = generateMarkdown;
