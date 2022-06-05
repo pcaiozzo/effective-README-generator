@@ -1,7 +1,7 @@
-# gen
+# Effective README Generator
 
 ## Description
-
+This is a command line application that runs with Node.js. It generates a README.md file based on the answers provided.
 
 
 ## Table of Contents
@@ -20,7 +20,7 @@ npm install
 
 
 ## Usage
-
+You can use this README Generator to quickly and easily make a README.md file for any of your projects!
 
 
 ## License
@@ -36,7 +36,7 @@ undefined
 
 
 ## Tests
-npm run test
+No tests.
 
 ## Questions
 If you have any questions, contact me!

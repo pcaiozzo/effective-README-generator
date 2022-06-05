@@ -54,10 +54,10 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
--[Badges](#badges)
--[Contributing](#contributing)
--[Tests](#tests)
--[Questions](#questions)
+- [Badges](#badges)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${data.install}

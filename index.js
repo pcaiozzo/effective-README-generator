@@ -7,16 +7,6 @@ const fs = require('fs');
 const questions = [
   {
     type: "input",
-    name: "github",
-    message: "What is your gitHub username?",
-  },
-  {
-    type: "input",
-    name: "email",
-    message: "What is your email address?",
-  },
-  {
-    type: "input",
     name: "title",
     message: "What is the title of your project?",
   },
@@ -35,8 +25,7 @@ const questions = [
     type: "input",
     name: "install",
     message: "What command should be run to install dependencies?",
-    default:
-      "npm install",
+    default: "npm install",
   },
   {
     type: "input",
@@ -63,6 +52,16 @@ const questions = [
       "Perl",
       "SIL",
     ],
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "What is your gitHub username?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
   },
 ];
 
