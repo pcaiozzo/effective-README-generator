@@ -77,7 +77,9 @@ ${data.usage}
 
 
 ## License
-This project is licensed using the ${renderLicenseBadge(data.license)} license. 
+This project is licensed using the ${data.license} 
+
+${renderLicenseBadge(data.license)}
 
 
 ## Badges

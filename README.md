@@ -31,7 +31,7 @@ This project is licensed using the [![License: MIT](https://img.shields.io/badge
 undefined
 
 
-## Contribute
+## Contributing
 undefined
 
 
