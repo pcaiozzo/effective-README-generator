@@ -18,19 +18,18 @@ const questions = [
   {
     type: "input",
     name: "contributing",
-    message:
-      "What do users need to know about contributing to this repository?",
+    message: "Please enter then names of the contributors.",
   },
   {
     type: "input",
     name: "install",
-    message: "What command should be run to install dependencies?",
+    message: "What command should be run to install the application?",
     default: "npm install",
   },
   {
     type: "input",
     name: "tests",
-    message: "What command should be run to run tests?",
+    message: "What command should be used to run a test?",
     default: "npm run test",
   },
   {
@@ -41,7 +40,7 @@ const questions = [
   {
     type: "list",
     name: "license",
-    message: "What license is this project using?",
+    message: "Please select the proper license:",
     choices: [
       "MIT",
       "Apache 2.0",
@@ -51,6 +50,7 @@ const questions = [
       "Boost",
       "Perl",
       "SIL",
+      "no license",
     ],
   },
   {
@@ -68,7 +68,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 fs.writeFile(`${fileName}`, data, (err) =>
-  err ? console.error(err) : console.log("Success!")
+  err ? console.error(err) : console.log("Success! Your README has been generated!")
 );
 };
 

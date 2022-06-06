@@ -1,7 +1,7 @@
 # Effective README Generator
 
 ## Description
-This is a command line application that runs with Node.js. It generates a README.md file based on the answers provided.
+This is a command line application that runs with Node.js. It generates a README.md file based on the answers that a given from answering the questions.
 
 
 ## Table of Contents
@@ -10,17 +10,17 @@ This is a command line application that runs with Node.js. It generates a README
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
--[Badges](#badges)
--[Contributing](#contributing)
--[Tests](#tests)
--[Questions](#questions)
+- [Badges](#badges)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 npm install
 
 
 ## Usage
-You can use this README Generator to quickly and easily make a README.md file for any of your projects!
+When running 'node index' in the command line, there will be a series of questions that you will answer to help get your README updated.
 
 
 ## License
@@ -36,7 +36,7 @@ undefined
 
 
 ## Tests
-No tests.
+npm run test
 
 ## Questions
 If you have any questions, contact me!
