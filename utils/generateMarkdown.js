@@ -101,7 +101,6 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Badges](#badges)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -120,12 +119,8 @@ This project is licensed using the ${data.license}
 ${renderLicenseBadge(data.license)}
 
 
-## Badges
-${data.badges}
-
-
-## Contribute
-${data.contribute}
+## Contributing
+${data.contributing}
 
 
 ## Tests

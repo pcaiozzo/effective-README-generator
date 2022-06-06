@@ -10,7 +10,6 @@ This is a command line application that runs with Node.js. It generates a README
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Badges](#badges)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -24,15 +23,13 @@ When running 'node index' in the command line, there will be a series of questio
 
 
 ## License
-This project is licensed using the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license. 
+This project is licensed using the MIT 
 
-
-## Badges
-undefined
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Contributing
-undefined
+Paige Caiozzo
 
 
 ## Tests
