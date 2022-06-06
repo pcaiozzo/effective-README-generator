@@ -20,7 +20,11 @@ npm install
 
 ## Usage
 When running 'node index' in the command line, there will be a series of questions that you will answer to help with getting your README updated.
+ ### Click [here](https://drive.google.com/file/d/1szJ5TdTqDT7cdF2rlYjSu3WEPQKEx1P0/view) to watch a live walkthrough of how it works.
 
+![Example Image](./images/Screenshot.png)
+
+![Example Image](./images/Screenshot2.png)
 
 ## License
 This project is licensed using the MIT 
