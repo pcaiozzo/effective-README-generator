@@ -24,7 +24,7 @@ When running 'node index' in the command line, there will be a series of questio
 
 
 ## License
-This project is licensed using the MIT license. 
+This project is licensed using the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license. 
 
 
 ## Badges
@@ -40,7 +40,8 @@ npm run test
 
 ## Questions
 If you have any questions, contact me!
-GitHub: [GitHub!](https://github.com/pcaiozzo)
-Email:  paigecaiozzo@gmail.com
+
+- GitHub: [GitHub!](https://github.com/pcaiozzo)
+- Email:  paigecaiozzo@gmail.com
 
 
